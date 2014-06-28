@@ -1,0 +1,23 @@
+(c) 2014 The Regents of the University of Michigan
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License.  You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY: THE PROGRAM IS PROVIDED
+"AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING
+WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE.  MICHIGAN DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN
+THE PROGRAM WILL MEET LICENSEE'S REQUIREMENTS OR THAT OPERATION WILL BE
+UNINTERRUPTED OR ERROR FREE. MICHIGAN shall not be liable for special, indirect,
+incidental, or consequential damages with respect to any claim on account of or
+arising from this Agreement or use of the PROGRAM, even if MICHIGAN has been or
+is hereafter advised of the possibility of such damages. Because some states do
+not allow certain exclusions or limitations on implied warranties or of
+liability for consequential or incidental damages, the above exclusions may not
+apply to LICENSEE. In no event, however, will MICHIGAN be liable to LICENSEE,
+under any theory of recovery, in an amount in excess of the license fee  paid by
+LICENSEE under this Agreement. 
+
