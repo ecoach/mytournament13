@@ -7,6 +7,8 @@ import json
 # Create your models here.
 
 class Bracket(models.Model):
+    class Meta: 
+        db_table = 'mytournament_bracket'
     # [12m_Competitor]
     # [12m_Judge]
     # [12m_Bout]
@@ -24,6 +26,8 @@ class Bracket(models.Model):
         # eval(self.manager).repair()
 
 class Competitor(models.Model):
+    class Meta: 
+        db_table = 'mytournament_competitor'
     # [12m_Bout]
     bracket = models.ForeignKey(Bracket)
     name = models.CharField(max_length=30, null=True, blank=True)
@@ -75,6 +79,8 @@ class Competitor(models.Model):
         self.Set_Beatby(beatby)
     
 class Judge(models.Model):
+    class Meta: 
+        db_table = 'mytournament_judge'
     # [12m_Bout]
     bracket = models.ForeignKey(Bracket)
     name = models.CharField(max_length=30, null=True, blank=True)
@@ -82,6 +88,8 @@ class Judge(models.Model):
     decisions = models.IntegerField(null=True, blank=True)
 
 class Bout(models.Model):
+    class Meta: 
+        db_table = 'mytournament_bout'
     bracket = models.ForeignKey(Bracket)
     bround = models.IntegerField(null=True, blank=True)
     judge = models.ForeignKey(Judge, null=True)
